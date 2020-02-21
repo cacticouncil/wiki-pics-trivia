@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="@dimen/menu_views_margin"
+    tools:context="com.hokuten.wikipicstrivia.ViewCategory" >
+
+    <View
+        android:id="@+id/padCategory"
+        android:layout_width="@dimen/playscreen_margin"
+        android:layout_height="@dimen/playscreen_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>
+
+    <CheckBox
+        android:id="@+id/chkCatSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/menu_views_margin"
+        android:scaleX="@dimen/checkbox_scale"
+        android:scaleY="@dimen/checkbox_scale" />
+
+    <TextView
+        android:id="@+id/txtCategory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/padCategory"
+        android:layout_toLeftOf="@id/chkCatSelected"
+        android:layout_centerVertical="true"
+        android:text="Category"
+        android:textSize="@dimen/menu_stat_text"/>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hokuten.wikipicstrivia.ActivityMain" >
+    
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/menubar_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_questions"
+        android:title="@string/menubar_questions"
+        android:orderInCategory="101"
+        android:showAsAction="never" />
+<!--<item
+        android:id="@+id/menu_flag_question"
+        android:title="@string/menubar_flag_question"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:visible="false" />-->
+    <item
+        android:id="@+id/menu_endround"
+        android:title="@string/menubar_endround"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:visible="false" />
+    <item
+        android:id="@+id/menu_package_images"
+        android:title="@string/menubar_package_images"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:visible="false" />
+    <item
+        android:id="@+id/menu_create_fake_answers"
+        android:title="@string/menubar_create_fake_answers"
+        android:orderInCategory="105"
+        android:showAsAction="never"
+        android:visible="false" />
+    <item
+        android:id="@+id/menu_help"
+        android:title="@string/menubar_help"
+        android:showAsAction="never"
+        android:orderInCategory="106">
+        <menu
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools">
+            <item
+                android:id="@+id/menu_about"
+                android:title="@string/menubar_about"
+                android:orderInCategory="100"
+                android:showAsAction="never" />
+            <item
+                android:id="@+id/menu_gmo"
+                android:title="@string/menubar_gmo"
+                android:orderInCategory="101"
+                android:showAsAction="never" />
+            <item
+                android:id="@+id/menu_categories"
+                android:title="@string/menubar_categories"
+                android:orderInCategory="102"
+                android:showAsAction="never" />
+            <item
+                android:id="@+id/menu_feedback"
+                android:title="@string/menubar_feedback"
+                android:orderInCategory="103"
+                android:showAsAction="never" />
+            <item
+                android:id="@+id/menu_disclaimer"
+                android:title="@string/menubar_disclaimer"
+                android:orderInCategory="104"
+                android:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

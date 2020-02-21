@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="menu_play_margin">32dp</dimen>
+    <dimen name="menu_views_margin">14dp</dimen>
+    <dimen name="menu_views_margin_half">7dp</dimen>
+    <dimen name="menu_desc_bottom_margin">16dp</dimen>
+    <dimen name="menu_button_horizontal_pad">24dp</dimen>
+
+    <dimen name="menu_button_text">48sp</dimen>
+    <dimen name="menu_label_text">42sp</dimen>
+    <dimen name="menu_answer_text">32sp</dimen>
+    <dimen name="menu_desc_text">18sp</dimen>
+    <dimen name="menu_stat_text">24sp</dimen>
+
+    <dimen name="mode_option_text">20sp</dimen>
+    <dimen name="mode_option_icon">38dp</dimen>
+    <dimen name="mode_option_pad">21dp</dimen>
+
+    <dimen name="playscreen_margin">22dp</dimen>
+    <dimen name="over_question_img_size">96dp</dimen>
+    <dimen name="question_correct_size">192dp</dimen>
+
+    <dimen name="share_views_margin">14dp</dimen>
+
+    <item name="checkbox_scale" format="float" type="dimen">1.5</item>
+</resources>

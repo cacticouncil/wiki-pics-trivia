@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="@dimen/menu_views_margin"
+    tools:context="com.hokuten.wikipicstrivia.ViewTheme" >
+
+    <View
+        android:id="@+id/padTheme"
+        android:layout_width="@dimen/playscreen_margin"
+        android:layout_height="@dimen/playscreen_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>
+
+    <CheckBox
+        android:id="@+id/chkThemeSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/menu_views_margin"
+        android:scaleX="@dimen/checkbox_scale"
+        android:scaleY="@dimen/checkbox_scale" />
+
+    <TextView
+        android:id="@+id/txtTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/padTheme"
+        android:layout_toLeftOf="@id/chkThemeSelected"
+        android:layout_centerVertical="true"
+        android:text="Theme"
+        android:textSize="@dimen/menu_stat_text"/>
+
+</RelativeLayout>

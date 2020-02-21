@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text_size" format="dimension" />
+
+    <declare-styleable name="ViewHelp">
+        <attr name="color"              format="color" />
+        <attr name="highlight_color"    format="color" />
+        <attr name="highlight_width"    format="dimension" />
+        <attr name="stroke_color"       format="color" />
+        <attr name="stroke_width"       format="dimension" />
+        <attr name="text_color"         format="color" />
+        <attr name="text_color_shadow"  format="color" />
+        <attr name="text_size" />
+        <attr name="text_padding"       format="dimension" />
+        <attr name="gradient_color"     format="color" />
+        <attr name="gradient_inverse"   format="boolean" />
+        <attr name="gradient_style"     format="enum">
+            <enum name="none"   value="0" />
+            <enum name="linear" value="1" />
+            <enum name="radial" value="2" />
+        </attr>
+        <attr name="gradient_direction" format="enum" >
+            <enum name="top_bottom"          value="0" />
+            <enum name="left_right"          value="1" />
+            <enum name="topleft_bottomright" value="2" />
+            <enum name="bottomleft_topright" value="3" />
+            <enum name="center"              value="4" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ViewBackground">
+        <attr name="src"       format="integer" />
+        <attr name="scrolling" format="boolean" />
+        <attr name="scroll_x"  format="float" />
+        <attr name="scroll_y"  format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="ViewGameModeOption">
+        <attr name="icon"      format="integer" />
+        <attr name="text_size" />
+    </declare-styleable>
+</resources>

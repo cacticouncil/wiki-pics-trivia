@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="@dimen/menu_layout_border_pad"
+    android:weightSum="1"
+    android:descendantFocusability="blocksDescendants"
+    tools:context="com.hokuten.wikipicstrivia.ViewQuestion">
+
+    <ImageView
+        android:id="@+id/ivQuestionImage"
+        android:layout_width="@dimen/over_question_img_size"
+        android:layout_height="@dimen/over_question_img_size"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/menu_layout_border_pad"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/tvQuestionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivQuestionImage"
+        android:text="1"
+        android:textSize="@dimen/menu_stat_text"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/ivQuestionCorrectness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvQuestionNumber"
+        android:layout_alignTop="@id/tvQuestionNumber"
+        android:layout_alignBottom="@id/tvQuestionNumber"
+        android:src="@drawable/ic_wrong"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/tvQuestionQuestion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/ivQuestionImage"
+        android:layout_below="@id/tvQuestionNumber"
+        android:text="Question"
+        android:textSize="@dimen/menu_stat_text"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/tvQuestionAnswer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivQuestionImage"
+        android:layout_below="@id/tvQuestionQuestion"
+        android:text="Answer"
+        android:textSize="@dimen/menu_stat_text"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/btnShare"
+        android:layout_width="@dimen/over_question_img_size"
+        android:layout_height="@dimen/over_question_img_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_share"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/btnWikipedia"
+        android:layout_width="@dimen/over_question_img_size"
+        android:layout_height="@dimen/over_question_img_size"
+        android:layout_toLeftOf="@id/btnShare"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_wiki"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

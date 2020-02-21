@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.hokuten.wikipicstrivia.FragmentCreateMode">
+
+    <!--
+        Root layout padding removed, so that ViewBackground fills entire layout.
+        This means you must apply padding below to appropriate views.
+    -->
+
+    <com.hokuten.wikipicstrivia.ViewBackground
+        android:id="@+id/bgCreateMode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:src="@drawable/background"
+        custom:scrolling="true"
+        custom:scroll_x="0.5"
+        custom:scroll_y="1.0" />
+
+    <com.hokuten.wikipicstrivia.ViewPager2
+        android:id="@+id/pagerCreateMode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_margin">
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pagerTabStrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:textColor="#fff"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp" />
+    </com.hokuten.wikipicstrivia.ViewPager2>
+
+</RelativeLayout>

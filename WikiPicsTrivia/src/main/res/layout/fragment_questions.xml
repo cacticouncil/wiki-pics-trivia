@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="@dimen/activity_margin"
+    android:weightSum="1"
+    tools:context="com.hokuten.wikipicstrivia.FragmentQuestions">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:layout_weight=".9" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_views_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_views_margin"
+                    android:gravity="left"
+                    android:text="@string/menu_questions_bank"
+                    android:textSize="@dimen/menu_label_text"
+                    android:background="@android:color/transparent" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="@dimen/menu_views_margin"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_views_margin">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="left"
+                        android:text="@string/menu_stats_total"
+                        android:textSize="@dimen/menu_stat_text"
+                        android:background="@android:color/transparent" />
+                    <TextView
+                        android:id="@+id/tvStatsTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="right"
+                        android:text="0"
+                        android:textSize="@dimen/menu_stat_text"
+                        android:background="@android:color/transparent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_views_margin">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="left"
+                        android:text="@string/menu_stats_answered"
+                        android:textSize="@dimen/menu_stat_text"
+                        android:background="@android:color/transparent" />
+                    <TextView
+                        android:id="@+id/tvStatsAnswered"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="right"
+                        android:text="0"
+                        android:textSize="@dimen/menu_stat_text"
+                        android:background="@android:color/transparent" />
+                </LinearLayout>
+
+                <!--
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_views_margin">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="left"
+                        android:text="@string/menu_stats_unanswered"
+                        android:textSize="@dimen/menu_stat_text"
+                        android:background="@android:color/transparent" />
+                    <TextView
+                        android:id="@+id/tvStatsUnanswered"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="right"
+                        android:text="0"
+                        android:textSize="@dimen/menu_stat_text"
+                        android:background="@android:color/transparent" />
+                </LinearLayout>
+                -->
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_views_margin">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="left"
+                        android:text="@string/menu_stats_topics"
+                        android:textSize="@dimen/menu_stat_text"
+                        android:background="@android:color/transparent" />
+                    <TextView
+                        android:id="@+id/tvStatsTopics"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="right"
+                        android:text="0"
+                        android:textSize="@dimen/menu_stat_text"
+                        android:background="@android:color/transparent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_views_margin">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="left"
+                        android:text="@string/menu_stats_categories"
+                        android:textSize="@dimen/menu_stat_text"
+                        android:background="@android:color/transparent" />
+                    <TextView
+                        android:id="@+id/tvStatsCategories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="right"
+                        android:text="0"
+                        android:textSize="@dimen/menu_stat_text"
+                        android:background="@android:color/transparent" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="@dimen/menu_views_margin"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/menu_questions_get"
+                    android:textSize="@dimen/menu_label_text"
+                    android:background="@android:color/transparent" />
+                <Button
+                    android:id="@+id/btnUpdateQuestions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="@dimen/menu_button_horizontal_pad"
+                    android:paddingRight="@dimen/menu_button_horizontal_pad"
+                    android:text="@string/menu_questions_update"
+                    android:textSize="@dimen/menu_label_text"/>
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/prgUpdateQuestions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.ProgressBar.Horizontal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_desc_bottom_margin"
+                android:text="@string/menu_questions_desc"
+                android:textSize="@dimen/menu_desc_text"
+                android:background="@android:color/transparent" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvQuestionsLocale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:gravity="left"
+                    android:text="@string/menu_questions_locale"
+                    android:textSize="@dimen/menu_label_text"
+                    android:background="@android:color/transparent" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:gravity="right"
+                    android:text="en_US"
+                    android:textSize="@dimen/menu_label_text"
+                    android:background="@android:color/transparent"
+                    android:enabled="false"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_desc_bottom_margin"
+                android:text="@string/menu_questions_locale_desc"
+                android:textSize="@dimen/menu_desc_text"
+                android:background="@android:color/transparent" />
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_views_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/menu_questions_reset"
+                    android:textSize="@dimen/menu_label_text"
+                    android:background="@android:color/transparent" />
+                <Button
+                    android:id="@+id/btnResetAnswers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="@dimen/menu_button_horizontal_pad"
+                    android:paddingRight="@dimen/menu_button_horizontal_pad"
+                    android:text="@string/menu_questions_reset_button"
+                    android:textSize="@dimen/menu_label_text"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/menu_questions_delete"
+                    android:textSize="@dimen/menu_label_text"
+                    android:background="@android:color/transparent" />
+                <Button
+                    android:id="@+id/btnDeleteAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="@dimen/menu_button_horizontal_pad"
+                    android:paddingRight="@dimen/menu_button_horizontal_pad"
+                    android:text="@string/menu_questions_delete_button"
+                    android:textSize="@dimen/menu_label_text"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_desc_bottom_margin"
+                android:text="@string/menu_questions_delete_desc"
+                android:textSize="@dimen/menu_desc_text"
+                android:background="@android:color/transparent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnQuestionsDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:layout_gravity="bottom|right"
+        android:gravity="bottom|right"
+        android:text="done"
+        android:textSize="@dimen/menu_button_text"
+        android:textColor="@color/button"
+        android:background="@android:color/transparent"
+        android:soundEffectsEnabled="false" />
+
+</LinearLayout>

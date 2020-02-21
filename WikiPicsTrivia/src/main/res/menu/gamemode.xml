@@ -1,0 +1,13 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_edit"
+        android:title="@string/menubar_edit" />
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/menubar_delete" />
+    <item
+        android:id="@+id/menu_untouchable"
+        android:title="@string/menubar_untouchable" />
+</menu>

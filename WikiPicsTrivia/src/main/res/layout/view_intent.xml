@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:gravity="left"
+    android:padding="@dimen/menu_minimal_pad"
+    android:weightSum="1"
+    android:background="?android:selectableItemBackground"
+    android:descendantFocusability="blocksDescendants"
+    tools:context="com.hokuten.wikipicstrivia.ViewIntent" >
+
+    <ImageView
+        android:id="@+id/ivIntentImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/share_views_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/menu_layout_border_pad"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/tvIntentLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/share_views_margin"
+        android:layout_toRightOf="@id/ivIntentImage"
+        android:text="Application Name"
+        android:textSize="@dimen/menu_stat_text"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

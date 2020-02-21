@@ -1,0 +1,16 @@
+name,categories,questions,timer,misses,browsable,hints,links
+20 Questions,0,20,3,0,1,1,0
+Free For All,0,0,3,0,1,1,0
+Extreme,0,10,1,0,0,0,0
+3 Strikes,0,0,0,3,0,0,0
+Surfing,0,0,0,0,1,1,1
+Animals,1,10,0,0,1,0,1
+Entertainment,1,10,0,0,1,0,1
+Food and Drink,1,10,0,0,1,0,1
+Geography,1,10,0,0,1,0,1
+History and Politics,1,10,0,0,1,0,1
+Humanities,1,10,0,0,1,0,1
+Literature,1,10,0,0,1,0,1
+People,1,10,0,0,1,0,1
+Science and Technology,1,10,0,0,1,0,1
+Sports,1,10,0,0,1,0,1

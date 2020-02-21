@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wiki Pics: Trivia</string>
+    <string name="app_image_extension">.png</string>
+    <string name="app_image_dir">images</string>
+    <string name="app_image_zip">images.zip</string>
+
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_ok">OK</string>
+    <string name="common_confirm">Confirm</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_areyousure">Are You Sure?</string>
+
+    <string name="menubar_settings">Settings</string>
+    <string name="menubar_questions">Questions</string>
+    <string name="menubar_endround">End Round</string>
+    <string name="menubar_package_images">Package Images</string>
+    <string name="menubar_flag_question">Flag Question</string>
+    <string name="menubar_create_fake_answers">Create Fake Answers</string>
+    <string name="menubar_help">Help</string>
+    <string name="menubar_about">About</string>
+    <string name="menubar_gmo">Games Mode Options</string>
+    <string name="menubar_categories">Categories</string>
+    <string name="menubar_feedback">Send Feedback</string>
+    <string name="menubar_edit">Edit</string>
+    <string name="menubar_delete">Delete</string>
+    <string name="menubar_untouchable">Can\'t touch this!</string>
+    <string name="menubar_disclaimer">Disclaimer</string>
+
+    <string name="menu_play">Play!</string>
+    <string name="menu_createmode">+ create</string>
+    <string name="menu_legend">legend</string>
+    <string name="menu_done">done</string>
+    <string name="menu_disclaimer">This game uses publicly available crowd-sourced content.\nPlease read the disclaimer in the help menu.</string>
+
+    <string name="menu_settings_lang">Language</string>
+    <string name="menu_settings_music">Music</string>
+    <string name="menu_settings_sound">Sound</string>
+    <string name="menu_settings_dnr">Do Not Repeat</string>
+    <string name="menu_settings_dnr_desc">Questions are never reused.</string>
+    <string name="menu_settings_learning">Learning Mode</string>
+    <string name="menu_settings_learning_desc">Allow missed questions to be reused.</string>
+    <string name="menu_settings_show_answer">Show Correct Answers</string>
+    <string name="menu_settings_show_answer_desc">Show correct answer immediately when question missed.</string>
+    <string name="menu_settings_qotd">Question of The Day</string>
+    <string name="menu_settings_qotd_set_time">Set time</string>
+    <string name="menu_settings_reset_help">Reset Help</string>
+    <string name="menu_settings_reset_help_button">Reset</string>
+
+    <string name="menu_stats_answered">Answered</string>
+    <string name="menu_stats_unanswered">Unanswered</string>
+    <string name="menu_stats_topics">Unique Topics</string>
+    <string name="menu_stats_categories">Categories</string>
+    <string name="menu_stats_total">Total # of Questions</string>
+
+    <string name="menu_questions_bank">Question Bank</string>
+    <string name="menu_questions_get">Get More!</string>
+    <string name="menu_questions_update">Download</string>
+    <string name="menu_questions_reset">Reset Answers</string>
+    <string name="menu_questions_reset_button">Reset</string>
+    <string name="menu_questions_delete">Delete All</string>
+    <string name="menu_questions_delete_button">Delete</string>
+    <string name="menu_questions_stop">Stop</string>
+    <string name="menu_questions_complete">Complete</string>
+    <string name="menu_questions_locale">Question Locale</string>
+    <string name="menu_questions_locale_desc">Your locale may effect which questions are downloaded, especially in categories like: politics, government, geography, people, etc.</string>
+    <string name="menu_questions_desc">Here you can download even more questions!  Note this process may take a few minutes to complete.</string>
+    <string name="menu_questions_delete_desc">This will wipe your entire question bank!</string>
+
+    <string name="help_custom_modes1">Play trivia the way it was meant to be played...</string>
+    <string name="help_custom_modes2">...any way you want!</string>
+    <string name="help_questions_download">Use this button to download even more questions!</string>
+    <string name="help_browsable1">This means you can swipe left and right to answer questions in any order.</string>
+    <string name="help_browsable2">Go ahead, swipe left and come back to this question later.</string>
+    <string name="help_links">Click this link to visit the Wikipedia article!</string>
+    <string name="help_misses">This is how many misses you have left until the round ends...</string>
+    <string name="help_createmode">Click tabs or swipe to construct your very own game mode!</string>
+
+    <string name="dialog_question_bank">Not connected to Wifi.  Continue with download?</string>
+    <string name="dialog_no_connection">No internet connection!  Dust yourself off and try again.</string>
+    <string name="dialog_need_questions_title">Download Questions</string>
+    <string name="dialog_need_questions_start">Welcome!\n\nThis game is all about dynamically generated questions downloaded from internet wiki sources.\n\nDownload some questions to get started!</string>
+    <string name="dialog_need_questions_empty">Great job!  You must have answered a lot of questions, because your question bank is empty!  Download more to continue playing.</string>
+    <string name="dialog_need_questions_unanswered">You don\'t have enough unanswered questions!  Download more to play this game mode without repeating questions, or turn off your Do Not Repeat setting.</string>
+    <string name="dialog_need_questions_unanswered_standard">You don\'t have enough unanswered questions in standard categories!  Download more to play this game mode without repeating questions, or turn off your Do Not Repeat setting.</string>
+    <string name="dialog_need_questions_custom">You don\'t have enough unanswered questions in the categories of this game mode!  Download more to play this game mode without repeating questions, or turn off your Do Not Repeat setting.</string>
+    <string name="dialog_reset_questions">You are about to reset all answered questions.  Previously answered questions will be reset and reused in trivia rounds.  Are you sure you want to do this?</string>
+    <string name="dialog_delete_questions">You are about to empty your entire question bank.  Are you sure you want to do this?</string>
+    <string name="dialog_delete_custom_mode_title">Remove Custom Mode</string>
+    <string name="dialog_delete_custom_mode">Are you sure?</string>
+    <string name="dialog_createmode_category_title">Custom Categories</string>
+    <string name="dialog_createmode_category_text">Please select at least one category.</string>
+    <string name="dialog_qotd_title">Question of the day</string>
+    <string name="dialog_qotd_text">Set a QOTD to exercise your brain daily?</string>
+    <string name="dialog_categories_title">Categories</string>
+    <string name="dialog_game_options_title">Game Options</string>
+    <string name="dialog_disclaimer_title">Disclaimer</string>
+
+    <string name="toast_error_share_generic">Something went wrong! Can\'t share.</string>
+    <string name="toast_error_pack_images">Couldn\'t package images.</string>
+    <string name="toast_error_writable_storage">Storage not writable.</string>
+    <string name="toast_success_delete_gamemode">Deleted game mode!</string>
+    <string name="toast_success_edit_gamemode">Updated game mode!</string>
+    <string name="toast_success_add_gamemode">Added game mode!</string>
+    <string name="toast_success_pack_images">Packaged images successfully.</string>
+    <string name="toast_reset_help">Help reset!</string>
+    <string name="toast_reset_answers">Answers reset!</string>
+    <string name="toast_delete_all">Question Bank wiped!</string>
+
+    <string name="load_database">Creating database...\nWe promise this will be quick :)</string>
+
+    <string name="legend_description">To play a round of trivia, you select or create a game mode, where each mode may have any of the following options.</string>
+    <string name="legend_questions">Number of questions per round.\nUnlimited if not specified.</string>
+    <string name="legend_timer">Time limit until round ends.\nInfinite if not specified.</string>
+    <string name="legend_misses">Allowable misses until round ends.\nUnlimited if not specified.</string>
+    <string name="legend_hints">Hints are available.</string>
+    <string name="legend_browsable">Questions can be answered in any order.</string>
+    <string name="legend_links">Links to Wikipedia pages.</string>
+
+    <string name="createmode_description">Let\'s create your very own game mode!</string>
+    <string name="createmode_name">First, you\'ll need to name it.</string>
+    <string name="createmode_name_default">New Game Mode</string>
+    <string name="createmode_name_hint">enter a name here</string>
+    <string name="createmode_questions">How many questions will your game mode have?</string>
+    <string name="createmode_questions_note">(0 means infinite questions)</string>
+    <string name="createmode_timer">How much time (in minutes) will you have to answer the questions?</string>
+    <string name="createmode_timer_note">(0 means no time limit)</string>
+    <string name="createmode_timer_helper">An average of %1$s seconds per question for %2$s questions.</string>
+    <string name="createmode_misses">How many incorrect answers are allowed before the round ends?</string>
+    <string name="createmode_misses_note">(0 means infinite misses)</string>
+    <string name="createmode_browsable">Can questions be answered in any order?</string>
+    <string name="createmode_haslinks">Should questions have links to Wikipedia™ articles?</string>
+    <string name="createmode_category">Questions from which categories:</string>
+    <string name="createmode_select_all">All</string>
+    <string name="createmode_select_custom">Custom</string>
+    <string name="createmode_select_none">None</string>
+    <string name="createmode_category_done">create!</string>
+    <string name="createmode_category_update">update!</string>
+
+    <string name="roundover">Round Over Results</string>
+    <string name="roundover_replay">replay!</string>
+    <string name="roundover_return">menu</string>
+    <string name="roundover_stats_total"># of Questions:</string>
+    <string name="roundover_stats_percent">% Correct:</string>
+
+    <string name="about_version">Version %1$s</string>
+    <string name="about_website">www.hokutenstudios.com</string>
+    <string name="about_developedby">Developed by Hokuten Studios, LLC</string>
+    <string name="about_rights">All Rights Reserved</string>
+    <string name="about_poweredby">Powered By Google Freebase™</string>
+    <string name="about_credits_developers">Joe Del Rocco and Darren Sardari</string>
+    <string name="about_credits_thanks">Mike Barnoske, Mariam Mohsenin, Al Sardari</string>
+
+    <string name="qotd_title">Question of the day!</string>
+    <string name="qotd_text">You better bring it.</string>
+
+    <string name="share_intent_text">Share via</string>
+    <string name="share_intent_type_text_image">image/png</string>
+    <string name="share_intent_body_question">Check out what I just got asked on %1$s\n\nDo you know the answer?\nQuestion: %2$s\n\nGo to %3$s to find out how to get in the action!</string>
+
+    <string name="url_wikipage">http://en.wikipedia.org/wiki?curid=%1$s</string>
+    <string name="url_hokuten">http://www.hokutenstudios.com</string>
+    <string name="url_freebase">http://www.freebase.com</string>
+
+    <string name="fb_namespace">wikipicstrivia:trivia_question</string>
+    <string name="fb_action_type">wikipicstrivia:answer</string>
+    <string name="fb_object_type">trivia_question</string>
+    <string name="fb_object_title">Trivia Question</string>
+    <string name="fb_object_description">Do you know the answer? Question: %1$s</string>
+
+    <string name="gamemode_default_label">Standard Games</string>
+    <string name="gamemode_category_label">Category Games</string>
+    <string name="gamemode_custom_label">My Games</string>
+
+    <string name="image_info">Image Info</string>
+    <string name="image_info_error">Couldn\'t retrieve</string>
+    <string name="image_author">Author:</string>
+    <string name="image_license">License:</string>
+    <string name="image_use">No content of the provided work has been modified. All rights go to the original author of the work.</string>
+</resources>

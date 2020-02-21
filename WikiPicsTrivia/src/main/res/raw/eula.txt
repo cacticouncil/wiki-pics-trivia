@@ -1,0 +1,77 @@
+Wiki Pics: Trivia
+Copyright © 2014-2015 Hokuten Studios, LLC
+
+This software uses crowd-sourced content from publicly available sources such as Google Freebase™ and the Wikimedia Foundation™.  Hokuten Studios does not curate this content in any way and therefore cannot be held responsible if the content contains erroneous or inappropriate information or imagery.  If you feel the content this product presents is not appropriate, please discontinue use immediately.
+
+This software uses Public Domain and CC BY‑SA 3.0 licensed images publicly available from the Wikimedia Foundation™; images been created by contributors outside the control of Hokuten Studios.  If you feel licensed artwork has been used by this product erroneously, please contact us and we will address it immediately by preventing it from being downloaded.
+
+WIKIPEDIA and WIKIMEDIA FOUNDATION are trademarks of the Wikimedia Foundation.  We are not endorsed by or affiliated with the Wikimedia Foundation.
+
+FREEBASE is a trademark of the Google Inc.  We are not endorsed by or affiliated with Google Inc.
+
+
+*** END USER LICENSE AGREEMENT ***
+
+IMPORTANT: PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE.
+
+1. LICENSE
+
+By receiving, opening the file package, and/or using Wiki Pics: Trivia ("Software") containing this software, you agree that this End User User License Agreement(EULA) is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.
+
+Unless you have a different license agreement signed by Hokuten Studios your use of Wiki Pics: Trivia indicates your acceptance of this license agreement and warranty.
+
+Subject to the terms of this Agreement, Hokuten Studios grants to you a limited, non-exclusive, non-transferable license, without right to sub-license, to use Wiki Pics: Trivia in accordance with this Agreement and any other written agreement with Hokuten Studios. Hokuten Studios does not transfer the title of Wiki Pics: Trivia to you; the license granted to you is not a sale. This agreement is a binding legal agreement between Hokuten Studios and the purchasers or users of Wiki Pics: Trivia.
+
+If you do not agree to be bound by this agreement, remove Wiki Pics: Trivia from your device now and, if applicable, promptly return to Hokuten Studios by mail any copies of Wiki Pics: Trivia and related documentation and packaging in your possession.
+
+2. DISTRIBUTION
+
+Wiki Pics: Trivia and the license herein granted shall not be copied, shared, distributed, re-sold, offered for re-sale, transferred or sub-licensed in whole or in part except that you may make one copy for archive purposes only. For information about redistribution of Wiki Pics: Trivia contact Hokuten Studios.
+
+3. USER AGREEMENT
+
+3.1 Use
+
+Your license to use Wiki Pics: Trivia is limited to the number of licenses purchased by you. You shall not allow others to use, copy or evaluate copies of Wiki Pics: Trivia.
+
+3.2 Use Restrictions
+
+You shall use Wiki Pics: Trivia in compliance with all applicable laws and not for any unlawful purpose. Without limiting the foregoing, use, display or distribution of Wiki Pics: Trivia together with material that is pornographic, racist, vulgar, obscene, defamatory, libelous, abusive, promoting hatred, discriminating or displaying prejudice based on religion, ethnic heritage, race, sexual orientation or age is strictly prohibited.
+
+Each licensed copy of Wiki Pics: Trivia may be used on one single device location by one user. Use of Wiki Pics: Trivia means that you have loaded, installed, or run Wiki Pics: Trivia on a device. If you install Wiki Pics: Trivia onto a multi-user platform, server or network, each and every individual user of Wiki Pics: Trivia must be licensed separately.
+
+You may make one copy of Wiki Pics: Trivia for backup purposes, providing you only have one copy installed on one device being used by one person. Other users may not use your copy of Wiki Pics: Trivia. The assignment, sublicense, networking, sale, or distribution of copies of Wiki Pics: Trivia are strictly forbidden without the prior written consent of Hokuten Studios. It is a violation of this agreement to assign, sell, share, loan, rent, lease, borrow, network or transfer the use of Wiki Pics: Trivia. If any person other than yourself uses Wiki Pics: Trivia registered in your name, regardless of whether it is at the same time or different times, then this agreement is being violated and you are responsible for that violation!
+
+3.3 Copyright Restriction
+
+This Software contains copyrighted material, trade secrets and other proprietary material. You shall not, and shall not attempt to, modify, reverse engineer, disassemble or decompile Wiki Pics: Trivia. Nor can you create any derivative works or other works that are based upon or derived from Wiki Pics: Trivia in whole or in part.
+
+Hokuten Studios's name, logo and graphics file that represents Wiki Pics: Trivia shall not be used in any way to promote products developed with Wiki Pics: Trivia. Hokuten Studios retains sole and exclusive ownership of all right, title and interest in and to Wiki Pics: Trivia and all Intellectual Property rights relating thereto.
+
+Copyright law and international copyright treaty provisions protect all parts of Wiki Pics: Trivia, products and services. No program, code, part, image, audio sample, or text may be copied or used in any way by the user except as intended within the bounds of the single user program. All rights not expressly granted hereunder are reserved for Hokuten Studios.
+
+3.4 Limitation of Responsibility
+
+This Software may use crowd-sourced content from public wiki and databases sources.  Hokuten Studios cannot be held responsible for this content which is publicly available to anyone equally on the internet without restriction.  Hokuten Studios does not curate the data in any way, and therefore cannot be held responsible for content that may be offending or inappropriate.  If for any reason you feel that the content of Software is inappropriate, you are encouraged to terminate use of the product immediately.
+
+You will indemnify, hold harmless, and defend Hokuten Studios, its employees, agents and distributors against any and all claims, proceedings, demand and costs resulting from or in any way connected with your use of Hokuten Studios's Software.
+
+In no event (including, without limitation, in the event of negligence) will Hokuten Studios, its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to this Agreement, Wiki Pics: Trivia or the use or inability to use Wiki Pics: Trivia or the furnishing, performance or use of any other matters hereunder whether based upon contract, tort or any other theory including negligence.
+
+Hokuten Studios's entire liability, without exception, is limited to the customers' reimbursement of the purchase price of the Software (maximum being the lesser of the amount paid by you and the suggested retail price as listed by Hokuten Studios) in exchange for the return of the product, all copies, registration papers and manuals, and all materials that constitute a transfer of license from the customer back to Hokuten Studios.
+
+3.5 Warranties
+
+Except as expressly stated in writing, Hokuten Studios makes no representation or warranties in respect of this Software and expressly excludes all other warranties, expressed or implied, oral or written, including, without limitation, any implied warranties of merchantable quality or fitness for a particular purpose.
+
+3.6 Governing Law
+
+This Agreement shall be governed by the law of the United States applicable therein. You hereby irrevocably attorn and submit to the non-exclusive jurisdiction of the courts of United States therefrom. If any provision shall be considered unlawful, void or otherwise unenforceable, then that provision shall be deemed severable from this License and not affect the validity and enforceability of any other provisions.
+
+3.7 Termination
+
+Any failure to comply with the terms and conditions of this Agreement will result in automatic and immediate termination of this license. Upon termination of this license granted herein for any reason, you agree to immediately cease use of Wiki Pics: Trivia and destroy all copies of Wiki Pics: Trivia supplied under this Agreement. The financial obligations incurred by you shall survive the expiration or termination of this license.
+
+4. DISCLAIMER OF WARRANTY
+
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. THIS DISCLAIMER CONCERNS ALL FILES GENERATED AND EDITED BY Wiki Pics: Trivia AS WELL.

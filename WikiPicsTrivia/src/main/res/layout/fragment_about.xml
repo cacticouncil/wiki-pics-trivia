@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="@dimen/activity_margin"
+    tools:context="com.hokuten.wikipicstrivia.FragmentAbout">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/llAbout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/menu_views_margin"
+        android:contentDescription="Company logo" />
+
+    <LinearLayout
+        android:id="@+id/llAbout"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <!--
+        <ProgressBar
+             android:id="@+id/prgFakeAnswers"
+             android:indeterminate="true"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             style="?android:attr/progressBarStyle"
+             android:layout_gravity="center_vertical|center_horizontal"
+             android:visibility="gone"/>
+    -->
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_version"
+            android:textSize="@dimen/menu_desc_text"/>
+        <TextView
+            android:id="@+id/tvDevelopedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_developedby"
+            android:textSize="@dimen/menu_desc_text"/>
+        <TextView
+            android:id="@+id/tvRights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/menu_desc_bottom_margin"
+            android:text="@string/about_rights"
+            android:textSize="@dimen/menu_desc_text"/>
+
+        <TextView
+            android:id="@+id/tvDevelopersHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hokuten Studios is:"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/menu_desc_text"/>
+        <TextView
+            android:id="@+id/tvDevelopers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/menu_desc_bottom_margin"
+            android:text="@string/about_credits_developers"
+            android:textSize="@dimen/menu_desc_text"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvMusicHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music:"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/menu_desc_text"/>
+        <TextView
+            android:id="@+id/tvSongs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&quot;George Street Shuffle&quot;, &quot;Mining by Moonlight&quot;"
+            android:textSize="@dimen/menu_desc_text"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tvSongWriter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kevin MacLeod (incompetech.com)"
+            android:textSize="@dimen/menu_desc_text"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tvSongLicense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Licensed under Creative Commons: By Attribution 3.0"
+            android:textSize="@dimen/menu_desc_text"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tvSongLicense2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/menu_desc_bottom_margin"
+            android:text="http://creativecommons.org/licenses/by/3.0/"
+            android:textSize="@dimen/menu_desc_text"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvThanksHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Thanks:"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/menu_desc_text"/>
+        <TextView
+            android:id="@+id/tvSpecialThanks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/menu_desc_bottom_margin"
+            android:text="@string/about_credits_thanks"
+            android:textSize="@dimen/menu_desc_text"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnFreebase"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_poweredby"
+            android:textSize="@dimen/menu_desc_text"
+            android:drawableRight="@drawable/ic_freebase"/>
+    </LinearLayout>
+
+</RelativeLayout>

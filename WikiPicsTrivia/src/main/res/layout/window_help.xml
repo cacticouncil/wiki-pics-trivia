@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.hokuten.wikipicstrivia.HelpWindow">
+
+    <com.hokuten.wikipicstrivia.ViewHelp
+        android:id="@+id/vHelp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        custom:color="#fec00000"
+        custom:gradient_color="#f2c22222"
+        custom:gradient_style="linear"
+        custom:highlight_color="#d0c00000"
+        custom:highlight_width="40dp"
+        custom:stroke_color="#fff6eaaa"
+        custom:stroke_width="8dp"
+        custom:text_color="#fff6eaaa"
+        custom:text_color_shadow="#ff000000"
+        custom:text_size="@dimen/menu_label_text"
+        custom:text_padding="@dimen/activity_margin" />
+
+</LinearLayout>

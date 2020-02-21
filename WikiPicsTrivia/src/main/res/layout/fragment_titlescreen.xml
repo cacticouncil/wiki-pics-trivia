@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="@dimen/activity_margin"
+    tools:context="com.hokuten.wikipicstrivia.FragmentTitleScreen">
+
+    <ImageView
+        android:id="@+id/ivTitlepic"
+        android:src="@drawable/wikipicstrivia"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btnPlay"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Title logo"/>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_above="@+id/tvDisclaimer"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/menu_play_margin"
+        android:text="@string/menu_play"
+        android:textSize="@dimen/menu_button_text"
+        android:textColor="@color/button"
+        android:background="@android:color/transparent"
+        android:soundEffectsEnabled="false" />
+
+    <TextView
+        android:id="@+id/tvDisclaimer"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/menu_disclaimer"
+        android:textSize="@dimen/menu_desc_text"/>
+
+</RelativeLayout>

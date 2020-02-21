@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/menu_minimal_pad"
+    tools:context="com.hokuten.wikipicstrivia.ViewGameMode">
+
+    <LinearLayout
+        android:id="@+id/layoutGameMode"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tvGameModeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Game Mode"
+            android:textSize="@dimen/menu_label_text"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!--
+            <com.hokuten.wikipicstrivia.ViewGameModeOption
+                android:id="@+id/vGMOCategories"
+                android:layout_width="@dimen/mode_option_icon"
+                android:layout_height="@dimen/mode_option_icon"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/mode_option_pad"
+                custom:icon="@drawable/ic_categories"
+                custom:textSize="@dimen/mode_option_text" />
+            -->
+            <com.hokuten.wikipicstrivia.ViewGameModeOption
+                android:id="@+id/vGMOQuestions"
+                android:layout_width="@dimen/mode_option_icon"
+                android:layout_height="@dimen/mode_option_icon"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/mode_option_pad"
+                custom:icon="@drawable/ic_questions"
+                custom:text_size="@dimen/mode_option_text" />
+            <com.hokuten.wikipicstrivia.ViewGameModeOption
+                android:id="@+id/vGMOTimer"
+                android:layout_width="@dimen/mode_option_icon"
+                android:layout_height="@dimen/mode_option_icon"
+                android:layout_toRightOf="@id/vGMOQuestions"
+                android:layout_marginRight="@dimen/mode_option_pad"
+                android:layout_centerVertical="true"
+                custom:icon="@drawable/ic_timer"
+                custom:text_size="@dimen/mode_option_text" />
+            <com.hokuten.wikipicstrivia.ViewGameModeOption
+                android:id="@+id/vGMOMisses"
+                android:layout_width="@dimen/mode_option_icon"
+                android:layout_height="@dimen/mode_option_icon"
+                android:layout_toRightOf="@id/vGMOTimer"
+                android:layout_marginRight="@dimen/mode_option_pad"
+                android:layout_centerVertical="true"
+                custom:icon="@drawable/ic_misses"
+                custom:text_size="@dimen/mode_option_text" />
+            <com.hokuten.wikipicstrivia.ViewGameModeOption
+                android:id="@+id/vGMOBrowsable"
+                android:layout_width="@dimen/mode_option_icon"
+                android:layout_height="@dimen/mode_option_icon"
+                android:layout_toRightOf="@id/vGMOMisses"
+                android:layout_marginRight="@dimen/mode_option_pad"
+                custom:icon="@drawable/ic_browsable"
+                custom:text_size="@dimen/mode_option_text" />
+            <com.hokuten.wikipicstrivia.ViewGameModeOption
+                android:id="@+id/vGMOLinks"
+                android:layout_width="@dimen/mode_option_icon"
+                android:layout_height="@dimen/mode_option_icon"
+                android:layout_toRightOf="@id/vGMOBrowsable"
+                android:layout_marginRight="@dimen/mode_option_pad"
+                custom:icon="@drawable/ic_links"
+                custom:text_size="@dimen/mode_option_text" />
+            <!--
+            <com.hokuten.wikipicstrivia.ViewGameModeOption
+                android:id="@+id/vGMOHints"
+                android:layout_width="@dimen/mode_option_icon"
+                android:layout_height="@dimen/mode_option_icon"
+                android:layout_marginRight="@dimen/mode_option_pad"
+                custom:icon="@drawable/ic_hints"
+                custom:text_size="@dimen/mode_option_text" />
+            -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivGameModeArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/layoutGameMode"
+        android:layout_alignBottom="@id/layoutGameMode"
+        android:padding="@dimen/menu_layout_border_pad"
+        android:src="@drawable/ic_right_arrow"
+        android:scaleType="fitXY"
+        android:visibility="invisible" />
+
+</RelativeLayout>
