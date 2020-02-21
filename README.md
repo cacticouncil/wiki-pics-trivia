@@ -1,8 +1,6 @@
 # Wiki Pics Trivia
 
-Android trivia app built in 2016, which used [Google Freebase](https://en.wikipedia.org/wiki/Freebase) and [Wikipedia](https://www.wikipedia.org) entries for endless questions. The final [production .apk is provided](/final/wikipics.apk).
-
-This codebase is provided AS-IS, and is not guaranteed to be in a building state. Google Freebase is now deprecated, so downloading of new questions no longer works. Future work should involve using the [Wikidata](https://en.wikipedia.org/wiki/Wikidata) online database instead.
+Android trivia app built in 2016, which used [Google Freebase](https://en.wikipedia.org/wiki/Freebase) and [Wikipedia](https://www.wikipedia.org) entries for endless questions. The final [production .apk is provided](/final/wikipics.apk). This codebase is provided AS-IS, and is not guaranteed to be in a building state. Google Freebase is now deprecated, so downloading of new questions no longer works. Future work should involve using the [Wikidata](https://en.wikipedia.org/wiki/Wikidata) online database instead.
 
 ## Attribution  
 This work is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).  
