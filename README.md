@@ -4,7 +4,7 @@ Android trivia app built in 2016, which used [Google Freebase](https://en.wikipe
 
 ## Attribution  
 This work is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).  
-Please attribute Cacti Council for this work.
+Please attribute [Cacti Council](https://www.cacticouncil.org) for this work.
 
 ## Screenshots
 
